@@ -9,4 +9,4 @@ class Comentario(models.Model):
 
 
     def __str__(self):
-        return self.usuario.first_name
+        return self.usuario.username
