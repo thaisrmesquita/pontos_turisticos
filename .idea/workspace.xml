@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91436bac-cbff-4e11-9f82-c406877a06a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/atracoes/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontos_turisticos/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atracoes/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/atracoes/models.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pontos_turisticos/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="328">
               <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/atracoes/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -70,6 +71,7 @@
         <option value="$PROJECT_DIR$/core/api/viewsets.py" />
         <option value="$PROJECT_DIR$/core/api/serializers.py" />
         <option value="$PROJECT_DIR$/pontos_turisticos/settings.py" />
+        <option value="$PROJECT_DIR$/atracoes/models.py" />
       </list>
     </option>
   </component>
@@ -92,6 +94,11 @@
             <path>
               <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
               <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
+              <item name="atracoes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,6 +264,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atracoes/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
