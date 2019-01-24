@@ -18,6 +18,7 @@ from django.urls import path, include
 from rest_framework import routers
 from atracoes.api.viewsets import AtracoesViewSet
 from core.api.viewsets import PontoTuristicoViewSet
+from enderecos.api.viewsets import EnderecosViewSet
 
 router = routers.DefaultRouter()
 router.register(r'pontoturistico', PontoTuristicoViewSet),
