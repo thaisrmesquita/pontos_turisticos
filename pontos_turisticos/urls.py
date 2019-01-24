@@ -19,7 +19,8 @@ from rest_framework import routers
 from core.api.viewsets import PontoTuristicoViewSet
 
 router = routers.DefaultRouter()
-router.register(r'pontoturistico', PontoTuristicoViewSet)
+router.register(r'pontoturistico', PontoTuristicoViewSet),
+router.register(r'atracoes', AtracoesViewSet)
 
 urlpatterns = [
     path('',include(router.urls)),
