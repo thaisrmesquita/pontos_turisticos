@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="91436bac-cbff-4e11-9f82-c406877a06a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pontos_turisticos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atracoes/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/atracoes/api/viewsets.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,13 +12,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pontos_turisticos/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+              <caret line="22" column="44" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="44" />
               <folding>
                 <element signature="e#641#673#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/atracoes/api/viewsets.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -43,7 +54,6 @@
         <option value="$PROJECT_DIR$/core/admin.py" />
         <option value="$PROJECT_DIR$/atracoes/models.py" />
         <option value="$PROJECT_DIR$/atracoes/admin.py" />
-        <option value="$PROJECT_DIR$/atracoes/api/viewsets.py" />
         <option value="$PROJECT_DIR$/atracoes/api/serializers.py" />
         <option value="$PROJECT_DIR$/comentarios/admin.py" />
         <option value="$PROJECT_DIR$/comentarios/api/serializers.py" />
@@ -62,6 +72,7 @@
         <option value="$PROJECT_DIR$/core/api/viewsets.py" />
         <option value="$PROJECT_DIR$/core/models.py" />
         <option value="$PROJECT_DIR$/pontos_turisticos/urls.py" />
+        <option value="$PROJECT_DIR$/atracoes/api/viewsets.py" />
       </list>
     </option>
   </component>
@@ -87,7 +98,13 @@
             <path>
               <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
               <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
+              <item name="atracoes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pontos_turisticos" type="b2602c69:ProjectViewProjectNode" />
               <item name="pontos_turisticos" type="462c0819:PsiDirectoryNode" />
+              <item name="atracoes" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -260,9 +277,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atracoes/api/viewsets.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/atracoes/api/serializers.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -381,9 +395,19 @@
     <entry file="file://$PROJECT_DIR$/pontos_turisticos/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="44" />
           <folding>
             <element signature="e#641#673#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atracoes/api/viewsets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
