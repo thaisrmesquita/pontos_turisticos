@@ -127,4 +127,5 @@ STATIC_URL = '/static/'
 
 MEDIA_ROOT = 'imagens'
 
+MEDIA_URL = '/media/'
 
