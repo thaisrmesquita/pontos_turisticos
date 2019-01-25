@@ -4,5 +4,5 @@ from avaliacoes.models import Avaliacao
 
 
 class AvaliacaoViewSet(ModelViewSet):
-    queryset = Avaliacao.objects.all()
+    queryset = Avaliacao.objects.filter(aprovado=True)
     serializer_class = AvaliacaoSerializer
