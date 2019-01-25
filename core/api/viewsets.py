@@ -1,3 +1,4 @@
+from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 
@@ -24,3 +25,13 @@ class PontoTuristicoViewSet(ModelViewSet):
         pass
     def partial_update(self, request, *args, **kwargs):
         pass
+
+    #funções personalizadas
+    #decorator (tem que passar em quais métodos você quer que funcione e detail para pegar a pk
+    @action(methods=['get'], detail=True)
+    def denunciar(self,request, pk=None):
+        pass
+
+    #@action(methods=['get'], detail=False)
+    #def teste(self, request):
+    #  pass
